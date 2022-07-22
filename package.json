@@ -1,0 +1,21 @@
+{
+    "name": "testapp",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node app.js",
+        "test": "mocha --exit api.spec.js"
+    },
+    "dependencies": {
+        "express": "4.17.x",
+        "request": "^2.88.2"
+    },
+    "repository": {},
+    "engines": {
+        "node": "14.x"
+    },
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^9.2.1",
+        "supertest": "^6.2.2"
+    }
+}

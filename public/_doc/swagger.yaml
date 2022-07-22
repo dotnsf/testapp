@@ -1,0 +1,27 @@
+swagger: '2.0'
+info:
+  description: FX API ドキュメント
+  version: 0.0.1
+  title: FX REST APIs
+host: localhost:8080
+basePath: /api
+tags:
+  - name: fx
+    description: FX APIs
+schemes:
+  - http
+  - https
+paths:
+  /fx:
+    get:
+      tags:
+        - fx
+      summary: FX情報取得
+      description: FX情報取得
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: 成功
+        '400':
+          description: エラー
